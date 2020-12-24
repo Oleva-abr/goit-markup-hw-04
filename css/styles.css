@@ -5,6 +5,7 @@
   вторичный цвет фона #2F303A
  */
 /* site colors */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -112,8 +113,8 @@ ul {
 .section-title-secondary {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.17;
+  font-size: 14px;
+  line-height: 1.14;
 
   margin-top: 0;
   margin-bottom: 10px;
