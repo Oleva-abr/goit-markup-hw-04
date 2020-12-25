@@ -181,11 +181,39 @@ ul {
 .address {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  display: flex;
 }
 .address:hover,
 .address:focus {
   color: var(--accent-color);
 }
+/* .address-nav .item {
+  display: inline-flex;
+}
+
+.icon-phone::before {
+  content: '';
+  background-image: url(../img/icons/phone.svg);
+  margin-right: 10px;
+  background-size: cover;
+  height: 16px;
+  width: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-envelope::before {
+  content: '';
+  display: flex;
+  align-items: bottom;
+  background-image: url(../img/icons/envelope.svg);
+  margin-right: 10px;
+  background-size: cover;
+  height: 12px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+
 /*  Main nav */
 .main-nav {
   display: flex;
