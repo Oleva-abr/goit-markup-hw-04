@@ -330,6 +330,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+  cursor: pointer;
 }
 
 .portfolio-list .item {
@@ -337,6 +338,12 @@ ul {
   /* способ №2  width: calc((100%-60px) / 3); */
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.portfolio-list .item:hover {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
@@ -348,6 +355,43 @@ ul {
   padding: 20px 24px;
 
   border: 1px solid #eeeeee;
+  background-color: var(--hero-text-color);
+}
+.card-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.item-card {
+  border: none;
+  padding: 0;
+
+  /* padding: 12px; */
+}
+
+.card-list > .item {
+  width: 44px;
+  height: 44px;
+
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+}
+.item-card {
+}
+.item-icon {
+  width: 20px;
+  height: 20px;
+  --color1: red;
+}
+.item-card > .item-icon:hover {
+  /* fill: rgba(33, 150, 243, 1); */
+  --color1: #ffffff;
+  background-color: rgba(33, 150, 243, 1);
+}
+.card-list .item:not(:last-child) {
+  margin-right: 10px;
 }
 .portfolio-button {
   display: flex;
