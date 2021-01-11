@@ -143,7 +143,6 @@ ul {
 /* Team list */
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-list .item:not(:last-child) {
@@ -398,7 +397,6 @@ ul {
 /* Client logo */
 .client-logo {
   display: flex;
-  padding-bottom: 94px;
 }
 .client-logo .item {
   width: 170px;
