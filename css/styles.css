@@ -138,6 +138,7 @@ ul {
 }
 .team-section {
   background: #f5f4fa;
+  padding-top: 94px;
 }
 /* Team list */
 .team-list {
@@ -162,7 +163,7 @@ ul {
 }
 /* Texts */
 .section {
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section p {
   margin-top: 0;
@@ -292,6 +293,7 @@ ul {
 /* list main */
 .feacher-list {
   display: flex;
+  padding-top: 94px;
 }
 .feacher-list .item:not(:last-child) {
   margin-right: 30px;
@@ -388,6 +390,7 @@ ul {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  padding-top: 94px;
 }
 .portfolio-button .item:not(:last-child) {
   margin-right: 8px;
@@ -445,7 +448,6 @@ ul {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  margin-top: 20px;
 
   display: flex;
   flex-direction: column;
@@ -456,7 +458,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .link-header {
