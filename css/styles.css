@@ -419,7 +419,9 @@ ul {
   height: 100%;
   padding: 20px;
 }
-
+.section-logo {
+  padding-top: 94px;
+}
 /* footer */
 .footer {
   background-color: #2f303a;
