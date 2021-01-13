@@ -182,6 +182,7 @@ ul {
 	font-size: 16px;
 	line-height: 1.86;
 	margin-bottom: 0;
+	color: var(--primary-text-color);
 }
 
 /* Address */
@@ -349,12 +350,13 @@ ul {
 .portfolio-list .item:nth-last-child(-n + 3) {
 	margin-bottom: 0;
 }
-.item > .card {
+.item .card {
 	padding: 20px 24px;
 
 	border: 1px solid #eeeeee;
 	background-color: var(--hero-text-color);
 }
+
 .card-list {
 	display: flex;
 	padding: 0;
