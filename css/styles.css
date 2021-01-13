@@ -331,9 +331,12 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
-.portfolio-list .item:hover,
-.portfolio-list .item:focus {
+.portfolio-list-actions {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-list-actions:hover,
+.portfolio-list-actions:focus {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -441,10 +444,7 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .footer-container { 
-  display: flex;
-  align-items: baseline;
-} */
+
 .footer-content {
   display: flex;
   align-items: baseline;
