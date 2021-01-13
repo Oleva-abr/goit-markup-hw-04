@@ -396,10 +396,19 @@ ul {
   margin-right: 8px;
 }
 /* Client logo */
-.client-logo {
+.client-logo,
+.client-logo .item {
   display: flex;
 }
-.client-logo .item {
+/* .client-logo .item { 
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}*/
+.client-logo .item-link {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -407,8 +416,8 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
-.client-logo .item:hover,
-.client-logo .item:hover {
+.client-logo .item-link:hover,
+.client-logo .item-link:focus {
   --color1: #2196f3;
   border: 1px solid #2196f3;
 }
